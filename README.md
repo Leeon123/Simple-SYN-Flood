@@ -4,7 +4,7 @@ This is a tool of TCP attack. It can chashed some small server. 500 Threads is t
 I have already test on windows. It works.
 
 # News
-Python3 Version is upload. :)
+Python3 Version is upload :)
 
 # Usage:
 
