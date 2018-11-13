@@ -1,11 +1,21 @@
-# TCP_Doser-Py3
-This is a tool of TCP attack. It can chashed some small server. 500 Threads is the best setting of it.
+# TCP-Flood-toolkit
+This is a tool of TCP attack. It can made a apache2 server down by 500 threads on my computer.
 
 I have already test on windows. It works.
+
+
 
 # News
 Python3 Version is upload :)
 
+# Install
+    git clone https://github.com/Leeon123/TCP-Flood-toolkit.git
+    cd TCP-Flood-toolkit
+
 # Usage:
 
-    pythone tcp.py
+    python3 Raw.py
+    
+    python3 SYN-Flood.py
+    
+    python3 ACK-Flood.py
