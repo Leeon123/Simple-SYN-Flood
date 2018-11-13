@@ -1,9 +1,11 @@
 # TCP-Doser
-This is a tool of TCP attack. It can chashed some small server. 800 Threads is the best setting of it.
-
-I don't know why it does not work on kali linux.
+This is a tool of TCP attack. It can chashed some small server. 500 Threads is the best setting of it.
 
 I have already test on windows. It works.
+
+# News
+Python3 Version is upload. :)
+
 # Usage:
 
-    python2 tcp.py
+    pythone tcp.py
