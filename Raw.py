@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #Code by Leeon123
-
+#This is the older version of syn flood
 import threading
 import socket
 import random
