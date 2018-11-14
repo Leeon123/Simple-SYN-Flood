@@ -1,5 +1,5 @@
 # TCP-Flood-toolkit
-This is a tool of TCP attack. It can made a apache2 server down by 500 threads on my computer.
+There are some tool of TCP attack. It can made a apache2 server down by 500 threads on my computer.
 
 I have already test on windows. It works.
 
