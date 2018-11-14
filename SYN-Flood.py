@@ -19,7 +19,7 @@ time.sleep(0.5)
 ip = str(input("Url/ip:"))
 port = int(input("Port:"))
 thread_num = int(input("Threads:"))
-times = int(input("Hit packets for a thread:"))
+times = int(input("Sockets of a thrrad:"))
 print ("[!]Start a syn flood\r\n[!]Thread:",thread_num)
 time.sleep(1)
 
