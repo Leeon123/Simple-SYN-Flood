@@ -31,7 +31,7 @@ def run():
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect(str(ip),int(port))
 			for y in range(times):
-				  s.send(bytes)
+				s.send(bytes)
 			print ("[*]Request sent!")
 		except:
 			s.close()
