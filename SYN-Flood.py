@@ -29,7 +29,7 @@ def run():
 		try:
 			print("[!]Try to build a new thread")
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			s.connect((str(ip),int(port))
+			s.connect(str(ip),int(port))
 			for y in range(times):
 				  s.send(bytes)
 			print ("[*]Request sent!")
