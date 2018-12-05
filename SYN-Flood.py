@@ -42,6 +42,7 @@ def run():
             try:
                for i in range(times):
                    sockfd.sendto(tcp_header, (dst_ip, 0))
+               print("SYN Flooding")
             except:
                print ("Re do")
 
