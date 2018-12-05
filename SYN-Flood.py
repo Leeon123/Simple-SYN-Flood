@@ -37,7 +37,6 @@ def run():
     header_checksum = 0
     urg_pointer = 0
     tcp_header = struct.pack('!HHIIBBHHH', src_port, dst_port, seq_number, ack_number, data_offset << 4, tcp_flags, window_size, header_checksum, urg_pointer)
-    tcp_header = struct.pack('!HHIIBBHHH', src_port, dst_port, seq_number, ack_number, data_offset << 4, tcp_flags, window_size, header_checksum, urg_pointer)
     while True:
             try:
                for i in range(times):
