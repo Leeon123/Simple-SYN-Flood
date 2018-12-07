@@ -1,4 +1,4 @@
-# Simple SYN-Flood
+# Simple-SYN-Flood
 There are some simple tool for SYN flood. It can made a apache2 server down by 10 threads on my computer.
 
 I have already test on windows. It works.
