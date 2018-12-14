@@ -12,8 +12,8 @@ You can change the script to make a ack/rst/fin/etc script.
 
     Just like :
     
-    ack_flag = 0 # 1 is using ack flag
-    syn_flag = 1 # 1 is using syn flag
+    ack = 0 # 1 is using ack flag
+    syn = 1 # 1 is using syn flag
 
 # Install
     git clone https://github.com/Leeon123/Simple-SYN-Flood.git
@@ -21,4 +21,4 @@ You can change the script to make a ack/rst/fin/etc script.
 
 # Usage:
 
-    python3 SYN-Flood.py
+    sudo python SYN-Flood.py
