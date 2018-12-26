@@ -1,6 +1,8 @@
 # Simple-SYN-Flood
 There is a simple tool for SYN flood.
 
+*Only for Linux*
+
 
 
 # News
