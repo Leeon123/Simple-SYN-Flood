@@ -6,7 +6,7 @@ import socket, sys, threading, random
 from struct import *
 from requests import *
 if len(sys.argv)<=2:
-    print("Usage: "+ sys.argv[0]+ " <target ip> <port>")
+    print("Usage: python "+ sys.argv[0]+ " <target ip> <port>")
     sys.exit()
 
 def checksum(msg):
