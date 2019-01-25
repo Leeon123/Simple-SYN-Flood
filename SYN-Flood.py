@@ -49,7 +49,7 @@ def header():
 
 def tcp():
   header()
-  source = random.randint(1, 65535)
+  source = random.randint(36000, 65535)
   dest = int(sys.argv[2])
   seq = 0
   ack_seq = 0
