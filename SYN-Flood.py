@@ -36,9 +36,9 @@ def header():
   version = 4
   tos = 0
   tot_len = 20 + 20
-  id = random.randint(65535)
+  id = random.randint(1,65535)
   frag_off = 0
-  ttl = random.randint(255)
+  ttl = random.randint(1,255)
   protocol = socket.IPPROTO_TCP
   check = 10 
   saddr =socket.inet_aton ( source_ip )
